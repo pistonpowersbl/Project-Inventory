@@ -1,0 +1,38 @@
+.sales-entry-container {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .sales-entry-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  .sales-entry-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .sales-entry-form input {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .sales-entry-form button {
+    grid-column: span 2;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
